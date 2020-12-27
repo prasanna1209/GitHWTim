@@ -1,5 +1,5 @@
 
-public class FileSystemEntry implements Comparable<FileSystemEntry> {
+public class GitFileSystemEntry implements Comparable<GitFileSystemEntry> {
     /** The filename. */
     private String filename;
     /** The contents. */
@@ -10,7 +10,7 @@ public class FileSystemEntry implements Comparable<FileSystemEntry> {
      * @param filename the filename
      * @param contents the contents
      */
-    public FileSystemEntry(String filename, String contents) {
+    public GitFileSystemEntry(String filename, String contents) {
         this.filename = filename;
         this.contents = contents;
     }
@@ -40,7 +40,7 @@ public class FileSystemEntry implements Comparable<FileSystemEntry> {
     }
 
     @Override
-    public int compareTo(FileSystemEntry that) {
+    public int compareTo(GitFileSystemEntry that) {
         return this.filename.compareTo(that.filename);
     }
 }

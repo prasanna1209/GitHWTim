@@ -1,5 +1,6 @@
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -9,9 +10,9 @@ import java.util.TreeSet;
  * @version 1.0
  *
  */
-public class FileSystem {
-    /** The files in the filesystem. */
-    private SortedSet<FileSystemEntry> files = new TreeSet<FileSystemEntry>();
+public class GitFileSystem {
+    /** The files in the filesystem, stored in order by filename. */
+    private SortedSet<GitFileSystemEntry> files = new TreeSet<GitFileSystemEntry>();
 
     /**
      * Returns the # of files.
@@ -25,7 +26,7 @@ public class FileSystem {
      * Returns the files.
      * @return the files
      */
-    public SortedSet<FileSystemEntry> getFiles() {
+    public SortedSet<GitFileSystemEntry> getFiles() {
         return Collections.unmodifiableSortedSet(files);
     }
 
@@ -34,8 +35,8 @@ public class FileSystem {
      * @param filename the file
      * @return the entry, or null
      */
-    public FileSystemEntry getFile(String filename) {
-        for (FileSystemEntry entry : files) {
+    public GitFileSystemEntry getFile(String filename) {
+        for (GitFileSystemEntry entry : files) {
             if (entry.getFilename().equals(filename)) {
                 return entry;
             }
@@ -59,8 +60,8 @@ public class FileSystem {
      * @return true if found and deleted
      */
     public boolean remove(String filename) {
-        for (Iterator<FileSystemEntry> iter = files.iterator(); iter.hasNext();) {
-            FileSystemEntry entry = iter.next();
+        for (Iterator<GitFileSystemEntry> iter = files.iterator(); iter.hasNext();) {
+            GitFileSystemEntry entry = iter.next();
             if (filename.equals(entry.getFilename())) {
                 iter.remove();
                 return true;
@@ -88,4 +89,13 @@ public class FileSystem {
     public void writeFileContents(String filename, String contents) {
     }
 
+    /**
+     * Returns the files in the working directory.  That is, all files
+     * whose filenames don't start with .git.  The files must be in sorted
+     * order by filename.
+     * @return the files in the working directory
+     */
+    public List<GitFileSystemEntry> getWorkingDirFiles() {
+        return null;
+    }
 }
