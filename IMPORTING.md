@@ -3,7 +3,6 @@
 1. Go to File -> Import..., and select Projects from Git
 
     ![Step 1](https://dl.dropbox.com/s/53ebf9xmdgwwlpq/step1.png)
-    **step 1** step
   
 1. Click Next, and select Clone URI
     ![Step 2](https://dl.dropbox.com/s/8nmj9zbn8k158np/step2.png)
