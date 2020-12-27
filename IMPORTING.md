@@ -1,14 +1,14 @@
 # Importing from Git into Eclipse
 
-1. Go to File -> Import..., select Projects from Git, and click Next.
+1. Go to File -> Import..., select "Projects from Git", and click Next.
 
     ![Step 1](https://dl.dropbox.com/s/53ebf9xmdgwwlpq/step1.png)
   
-1. Select Clone URI, and click Next.
+1. Select "Clone URI", and click Next.
 
     ![Step 2](https://dl.dropbox.com/s/8nmj9zbn8k158np/step2.png)
   
-1. Enter the clone URI for this repository (you can get it from the code button on the main page of the repository).
+1. Enter the Clone URI for this repository (you can get it from the code button on the main page of the repository).
 1. Enter your GitHub credentials.
 1. Click Next.
 
@@ -24,7 +24,7 @@
 
     ![Step 5](https://dl.dropbox.com/s/2a52xz9h90h6mx1/step5.png)
     
-1. Select Import using the New Project wizard
+1. Select "Import using the New Project wizard".
 1. Click Next.
 
     ![Step 6](https://dl.dropbox.com/s/6zzp4fkcof1e92d/step6.png)
