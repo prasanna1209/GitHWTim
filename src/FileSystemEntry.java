@@ -23,11 +23,6 @@ public class FileSystemEntry implements Comparable<FileSystemEntry> {
         return filename;
     }
 
-    @Override
-    public String toString() {
-        return contents;
-    }
-
     /**
      * Returns the contents.
      * @return the contents
