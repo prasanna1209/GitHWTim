@@ -73,7 +73,7 @@ public class FileSystem {
     /**
      * Reads the contents of the file with the given name.
      * @param filename the filename
-     * @return the contents of the file
+     * @return the contents of the file, or null if the file isn't present
      */
     public String readFileContents(String filename) {
         return null;

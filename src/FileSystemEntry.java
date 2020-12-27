@@ -8,9 +8,11 @@ public class FileSystemEntry implements Comparable<FileSystemEntry> {
     /**
      * Creates a FileEntry.
      * @param filename the filename
+     * @param contents the contents
      */
-    public FileSystemEntry(String filename) {
+    public FileSystemEntry(String filename, String contents) {
         this.filename = filename;
+        this.contents = contents;
     }
 
     /**
