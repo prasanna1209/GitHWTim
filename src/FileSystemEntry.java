@@ -1,12 +1,12 @@
 
 public class FileSystemEntry implements Comparable<FileSystemEntry> {
-    /** The filename */
-    protected String filename;
-    /** The contents */
-    protected String contents;
+    /** The filename. */
+    private String filename;
+    /** The contents. */
+    private String contents;
 
     /**
-     * Creates a FileEntry
+     * Creates a FileEntry.
      * @param filename the filename
      */
     public FileSystemEntry(String filename) {
@@ -14,7 +14,7 @@ public class FileSystemEntry implements Comparable<FileSystemEntry> {
     }
 
     /**
-     * Returns the filename
+     * Returns the filename.
      * @return the filename
      */
     public String getFilename() {
@@ -27,7 +27,15 @@ public class FileSystemEntry implements Comparable<FileSystemEntry> {
     }
 
     /**
-     * Sets the file contents
+     * Returns the contents.
+     * @return the contents
+     */
+    public String getContents() {
+        return contents;
+    }
+
+    /**
+     * Sets the file contents.
      * @param contents the contents
      */
     public void setContents(String contents) {

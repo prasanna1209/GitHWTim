@@ -1,16 +1,19 @@
 /**
- * Represents a file within Git
+ * Represents a file within Git.
  * @author tim
  * @version 1.0
  *
  */
 public class GitTreeEntry {
+    /** The filename. */
     private String filename;
+    /** The file mode (for us, always 100644). */
     private int mode;
+    /** The hash. */
     private String hash;
 
     /**
-     * Creates an entry
+     * Creates an entry.
      * @param filename the filename
      * @param mode the mode
      * @param hash the hash
@@ -22,7 +25,7 @@ public class GitTreeEntry {
     }
 
     /**
-     * Returns the filename
+     * Returns the filename.
      * @return the filename
      */
     public String getFilename() {
@@ -30,7 +33,7 @@ public class GitTreeEntry {
     }
 
     /**
-     * Returns the mode
+     * Returns the mode.
      * @return the mode
      */
     public int getMode() {
@@ -38,7 +41,7 @@ public class GitTreeEntry {
     }
 
     /**
-     * Returns the hash
+     * Returns the hash.
      * @return the hash
      */
     public String getHash() {
@@ -46,7 +49,7 @@ public class GitTreeEntry {
     }
 
     /**
-     * Sets the hash
+     * Sets the hash.
      * @param hash the hash
      */
     public void setHash(String hash) {

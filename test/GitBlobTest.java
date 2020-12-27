@@ -4,10 +4,10 @@ import org.junit.Test;
 
 public class GitBlobTest {
 
-	@Test
-	public void testBlob() {
-		GitBlob b = new GitBlob("the data");
-		assertEquals("the data", b.getData());
-	}
+    @Test
+    public void testBlob() {
+        GitBlob b = new GitBlob("the data");
+        assertEquals("the data", b.getData());
+    }
 
 }
