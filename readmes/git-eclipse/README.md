@@ -6,7 +6,7 @@
 
     ![Step 4](step4.png)
 
-    1. For "Source ref", choose refs/heads/main, and for "Destination ref", choose refs/remotes/origin/main.  Click "Add Spec", and then Finish.
+    1. For "Source ref", choose main, and for "Destination ref", choose origin/main.  Click "Add Spec", and then Finish.
 
     ![Step 5](step5.png)
 
