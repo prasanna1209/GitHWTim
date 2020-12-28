@@ -12,3 +12,5 @@
    - Set Eclipse to launch the previously launched application. This makes it easier to keep running your unit tests while editing.
      1. In the search box, type "launch".
      1. Under Run/Debug -> Launching, select "Always launch the previously launched application".
+1. Create a GitHub account, if you don't have one already.
+1. Fork this project on GitHub.
