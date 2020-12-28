@@ -5,7 +5,7 @@
     This configuration file was written by the eclipse-cs plugin configuration editor
 -->
 <!--
-    Checkstyle-Configuration: Tim Checks
+    Checkstyle-Configuration: COMP611 Style Checks
     Description: none
 -->
 <module name="Checker">
@@ -45,7 +45,9 @@
     <module name="OperatorWrap"/>
     <module name="ParenPad"/>
     <module name="TypecastParenPad"/>
-    <module name="WhitespaceAfter"/>
+    <module name="WhitespaceAfter">
+      <property name="tokens" value="COMMA,SEMI,LITERAL_IF,LITERAL_ELSE,LITERAL_WHILE,LITERAL_DO,LITERAL_FOR,DO_WHILE"/>
+    </module>
     <module name="WhitespaceAround"/>
     <module name="ModifierOrder"/>
     <module name="RedundantModifier"/>
