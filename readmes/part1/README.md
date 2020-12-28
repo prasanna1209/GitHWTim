@@ -52,5 +52,5 @@ public class FileSystem {
 ```
 
 ## The Object Store
-There are three types of objects that we will be storing: blobs, trees, and commits.  This week, we'll build the classes that hold the data for these objects.  Next week, we'll work on the details of their file formats. You can read about what they are and how they fit together [here](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects).  This is the kind of thing you'll probably need to read more than once, so read it now and make notes of things that aren't clear.  I will answer questons about them, and next week you'll be ready to implement the file formats.
+There are three types of objects that we will be storing: blobs, trees, and commits.  This week, we'll build the classes that hold the data for these objects: [`GitBlob`](../../src/GitBlob.java), [`GitTree`](../../src/GitTree.java), and [`GitCommit`](../../src/GitCommit.java).  Next week, we'll work on the details of their file formats. You can read about what they are and how they fit together [here](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects).  This is the kind of thing you'll probably need to read more than once, so read it now and make notes of things that aren't clear.  I will answer questons about them, and next week you'll be ready to implement the file formats.
 
