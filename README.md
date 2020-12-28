@@ -1,3 +1,3 @@
 # Git Projects
 
-[Importing into Eclipse](IMPORTING.md)
+[Importing into Eclipse](readmes/eclipseimport/IMPORTING.md)
