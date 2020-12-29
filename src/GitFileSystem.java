@@ -1,3 +1,4 @@
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
@@ -26,7 +27,7 @@ public class GitFileSystem {
      * Returns the files.
      * @return the files
      */
-    public SortedSet<GitFileSystemEntry> getFiles() {
+    public Collection<GitFileSystemEntry> getFiles() {
         return Collections.unmodifiableSortedSet(files);
     }
 
