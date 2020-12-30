@@ -8,4 +8,4 @@
 
 [Submitting your code in Mimir](readmes/git-mimir/README.md)
 
-[Part 1](readmes/part1/README.md)
+[Part 1 - Git objects and GitFileSystem](readmes/part1/README.md)
